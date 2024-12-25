@@ -36,6 +36,7 @@ for i in range(278):
 
     pg.hotkey('ctrl', 'alt', 'q')
     pg.write(a)
+    time.sleep(1)
     pg.click(x=1377, y=695)
 
-    time.sleep(90)
+    time.sleep(60)
