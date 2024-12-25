@@ -33,10 +33,9 @@ time.sleep(5)
 
 for i in range(278):
     a = random.choice(personas)
-    pg.hotkey('altright' , '2')
-    pg.write(a)
-    pg.press('enter')
 
-    tiempo_aleatorio = random.randint(5, 30)
-    print(f"Pausando por {tiempo_aleatorio} segundos...")
-    time.sleep(tiempo_aleatorio)  # Pausa
+    pg.hotkey('ctrl', 'alt', 'q')
+    pg.write(a)
+    pg.click(x=1377, y=695)
+
+    time.sleep(90)
